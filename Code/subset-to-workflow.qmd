@@ -1,0 +1,24 @@
+---
+title: "Reduce to subset"
+format: html
+editor: visual
+---
+
+## Overview
+
+When we pull the zooniverse classfication file down, it is huge, and always includes every single classification ever done on our project 🙁
+
+This chunk of code helps us to filter to the correct classifcation and workflow version so we get only the data we need.
+
+### Set up
+
+```{r}
+rm(list = ls())
+library(tidyverse)
+library(googledrive)
+library(here)
+```
+
+### Read file from google drive
+
+### Subset to correct workflow ID and workflow version
