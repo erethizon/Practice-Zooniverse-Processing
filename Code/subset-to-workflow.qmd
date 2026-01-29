@@ -21,4 +21,6 @@ library(here)
 
 ### Read file from google drive
 
+See [here](https://googledrive.tidyverse.org/reference/drive_read_string.html) for more details.
+
 ### Subset to correct workflow ID and workflow version
